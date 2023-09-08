@@ -1,0 +1,47 @@
+
+.main-bg {
+    background-color: 	rgb(255, 123, 0) !important;
+}
+
+/* banner */
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hovered-card{
+    transition: .3s;
+}
+
+.hovered-card:hover{
+    transform: scale(1.1);
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: white;
+}
+
+.footer-aufa{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner-produk-aufa{
+    height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-promo-aufa{
+    height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
